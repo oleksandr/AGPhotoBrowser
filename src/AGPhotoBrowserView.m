@@ -217,6 +217,8 @@ const NSInteger AGPhotoBrowserThresholdToCenter = 150;
 
     [self configureCell:cell forRowAtIndexPath:indexPath];
     
+    [self.overlayView resetOverlayView];
+    
     return cell;
 }
 
